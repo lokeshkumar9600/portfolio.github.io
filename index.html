@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
 <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
     <link
@@ -59,16 +62,22 @@
   <div class="row">
     <div class="col-md-6 d-flex justify-content-center align-items-center">
  <div class="abt_me" style="margin-top:30px">
- <h2 style="font-family: 'Open Sans', sans-serif;font-weight: bold;">About me  </h2>
+  <div data-aos="fade-up">
+    <h2 style="font-family: 'Open Sans', sans-serif;font-weight: bold;">About me  </h2>
+  </div>
+ 
  </div>
     </div>
     <div class="col-md-6">
 <div class="abt_me_msg">
   <div class="msg">
-    <p>Hello world this is lokesh kumar,</p>
-    <p>A passionate full stack web developer 🚀 and a tech enthusiast 🖥️ </p>
-    <p>having an experience of building web applications and projects with javascript /Reactjs / Nodejs / Python</p>
-    <p>I am currently pursuing my Btech computer science and engineering from VIT-Chennai</p>
+    <div data-aos="fade-down">
+      <p>Hello world this is lokesh kumar,</p>
+      <p>A passionate full stack web developer 🚀 and a tech enthusiast 🖥️ </p>
+      <p>having an experience of building web applications and projects with javascript /Reactjs / Nodejs / Python</p>
+      <p>I am currently pursuing my Btech computer science and engineering from VIT-Chennai</p>
+    </div>
+  
   </div>
 
 </div>
@@ -76,24 +85,30 @@
     <div class="row">
  <div  class="col-md-6 d-flex justify-content-center  align-items-center">
       <div class="abt_me" style="margin-top:30px">
-      <h2 class="t_text"style="">Technologies i've worked with   </h2>
+        <div data-aos="fade-up">
+          <h2 class="t_text"style="">Technologies i've worked with   </h2>
+        </div>
+     
       </div>
          </div>
          <div class="col-md-6">
      <div  class="t_stuff" >
-      <img class="tech" src="https://img.icons8.com/color/48/000000/python.png"/>
-      <img class="tech" src="https://img.icons8.com/color/48/000000/javascript.png"/>
-      <img class="tech" src="https://img.icons8.com/color/48/000000/html-5.png"/>
-      <img class="tech" src="https://img.icons8.com/color/48/000000/css3.png"/>
-      <img class="tech" src="https://img.icons8.com/dusk/64/000000/php-logo.png"/>
-      <img class="tech" src="https://img.icons8.com/color/50/000000/mongodb.png"/>
-      <img class="tech" src="https://img.icons8.com/color/48/000000/sql.png"/>
-      <img class="tech" src="https://img.icons8.com/color/64/000000/git.png"/>
-      <img class="tech" src="https://img.icons8.com/officel/50/000000/react.png"/>
-      <img class="tech" src="https://img.icons8.com/color/48/000000/nodejs.png"/>
-      <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
-      <img src="https://img.icons8.com/color/48/000000/c-programming.png"/>
-      <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
+      <div data-aos="fade-down">
+        <img class="tech" src="https://img.icons8.com/color/48/000000/python.png"/>
+        <img class="tech" src="https://img.icons8.com/color/48/000000/javascript.png"/>
+        <img class="tech" src="https://img.icons8.com/color/48/000000/html-5.png"/>
+        <img class="tech" src="https://img.icons8.com/color/48/000000/css3.png"/>
+        <img class="tech" src="https://img.icons8.com/dusk/64/000000/php-logo.png"/>
+        <img class="tech" src="https://img.icons8.com/color/50/000000/mongodb.png"/>
+        <img class="tech" src="https://img.icons8.com/color/48/000000/sql.png"/>
+        <img class="tech" src="https://img.icons8.com/color/64/000000/git.png"/>
+        <img class="tech" src="https://img.icons8.com/officel/50/000000/react.png"/>
+        <img class="tech" src="https://img.icons8.com/color/48/000000/nodejs.png"/>
+        <img src="https://img.icons8.com/color/48/000000/bootstrap.png"/>
+        <img src="https://img.icons8.com/color/48/000000/c-programming.png"/>
+        <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"/>
+        </div>
+      
      </div>
          </div>
     </div>
@@ -165,4 +180,7 @@
 </div>
 
 </body>
+<script>
+  AOS.init();
+</script>
 </html>

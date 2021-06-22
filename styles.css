@@ -34,17 +34,7 @@
   }
   
 
-  @media only screen and (max-width: 420px) {
-    .skills{
-        font-size:14px;
-    }
-  }
   
-  @media only screen and (max-width: 330px) {
-    .skills{
-        font-size:12px;
-    }
-  }
 
   .about-me{
       height:100vh;
@@ -65,6 +55,10 @@
       bottom: 0px;
       border-radius:50px;
       cursor: pointer;
+  }
+  .abt_me_msg{
+    margin-top:70px;
+    font-weight: 700;
   }
 
   .scroll_down::before,
@@ -102,3 +96,59 @@
       }
   }
 
+  .msg{
+    font-family: 'Montserrat', sans-serif;
+  }
+  .t_stuff{
+      margin-top:40px;
+  }
+  .tech{
+      margin-left:10px;
+  }
+  .abt_me_msg{
+    margin-top:23vh;
+  }
+  .t{
+    margin-top:20vh
+  }
+  .t_text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+  }
+
+  @media only screen and (max-width: 420px) {
+    .skills{
+        font-size:14px;
+    }
+    .t_stuff{
+        margin-top:0px;
+      }
+      .abt_me_msg{
+        margin-top:40px;
+        font-weight: 500;
+      }
+      .t_text{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size:14px;
+      }
+  }
+  
+  @media only screen and (max-width: 330px) {
+    .skills{
+        font-size:12px;
+    }
+    .t_stuff{
+        margin-top:0px;
+      }
+      .abt_me_msg{
+        margin-top:30px;
+        font-weight: 200;
+        font-size: 12px;
+      }
+      .t_text{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size:14px;
+      }
+  }
